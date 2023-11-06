@@ -1,0 +1,47 @@
+
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.208);
+    padding: 20px;
+    border-radius: 8px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #046831cf;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .number {
+    font-size: 24px;
+  }
+  
+  .button-carrito {
+    background-color: #034813;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* cuando stock es igual a 0 */
+  .button-carrito.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

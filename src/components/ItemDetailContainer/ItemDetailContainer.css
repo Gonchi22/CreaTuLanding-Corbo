@@ -1,0 +1,6 @@
+.ItemDetailContainer{
+    display: grid;
+  place-items: center; /* Centrado tanto horizontal como vertical */
+  height: 100vh;
+  
+}

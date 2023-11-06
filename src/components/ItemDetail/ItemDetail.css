@@ -1,0 +1,73 @@
+.CardItemDetalle {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    width: 400px;
+}
+
+.Header {
+    text-align: center;
+}
+
+.ItemHeader {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.ItemImg {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.section {
+    margin-top: 15px;
+}
+
+span {
+
+    font-style: italic;
+    font-weight: bold;
+}
+
+.infoDetalle {
+    margin-bottom: 8px;
+}
+
+.ItemFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.ItemFooter ItemCount {
+    margin: 0 auto;
+}
+
+.Option {
+    background-color: #046831cf;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.Option:hover {
+    background-color: #143e27cf;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+
+}

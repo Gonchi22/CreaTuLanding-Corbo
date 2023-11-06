@@ -1,0 +1,92 @@
+nav {
+    background-color: rgba(21, 104, 21, 0.807);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 15px 50px;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.548);
+    color: white;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+
+}
+
+/* LOGO MENU DE HAMBURGUESA */
+.menu-button {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    background-color: #fff;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+}
+
+/* LOGO MENU DE HAMBURGUESA */
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: none;
+}
+
+.nav-links li a {
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #071f07;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+@media (min-width: 769px) {
+    .menu-button {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+
+    }
+}
+
+
+@media (max-width: 768px) {
+    .menu-button {
+        display: flex;
+    }
+
+    ul.nav-links.open {
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        background-color: #3d4f3d;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        gap: 20px 10px;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+}

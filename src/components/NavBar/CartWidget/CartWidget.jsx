@@ -1,11 +1,10 @@
 import cart from './assets/cart.svg'
-
+import './CartWidget.css' 
 const CartWidget = () => {
     return (
-        <div>
+        <div className='container'>
             <img src={cart} alt="cart-widget" />
-            <br></br>
-            0
+           <span>0</span> 
         </div>
     )
 }
