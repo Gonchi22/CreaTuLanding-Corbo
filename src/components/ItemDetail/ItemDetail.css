@@ -5,11 +5,20 @@
     padding: 20px;
     margin: 10px;
     background-color: #fff;
-    width: 400px;
+    width: 80%;
+    display: flex;
 }
 
-.Header {
-    text-align: center;
+@media (max-width: 769px) {
+    .CardItemDetalle {
+        display: block;
+    }
+}
+
+
+.section{
+    display: grid;
+    
 }
 
 .ItemHeader {
@@ -17,14 +26,13 @@
     margin: 10px 0;
 }
 
-.ItemImg {
-    width: 100%;
-    border-radius: 8px;
-    margin-top: 10px;
-}
+ 
 
-.section {
-    margin-top: 15px;
+.ItemImg {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px; 
 }
 
 span {
@@ -48,6 +56,7 @@ span {
 
 .ItemFooter ItemCount {
     margin: 0 auto;
+
 }
 
 .Option {
@@ -71,3 +80,5 @@ span {
     font-weight: bold;
 
 }
+
+

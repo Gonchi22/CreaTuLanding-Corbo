@@ -1,6 +1,7 @@
-.ItemDetailContainer{
+.ItemDetailContainer {
     display: grid;
-  place-items: center; /* Centrado tanto horizontal como vertical */
-  height: 100vh;
-  
+    place-items: center;
+    /* Centrado tanto horizontal como vertical */
+    height: 100vh;
+    width: 100%;
 }

@@ -3,17 +3,15 @@ import './Item.css'
 
 const Item = ({id, name, img, price, stock}) => {
     return(
-        <article className="CardItem">
-            <header className="Header">
-                <h2 className="ItemHeader">{name}</h2>
-            </header>
+        <article className="CardItem"> 
             <picture>
                 <img src={img} alt={name} className="Itemimg" />
             </picture>
-            <section>
-                <p className="Info">Precio: ${price}</p>
-                <p className="Info">Stock disponible: {stock}</p>
-            </section>
+            <div className="InfoItem">
+                <h2 className="ItemHeader">{name}</h2>
+                <p className="Info">${price}</p>
+                <p className="StockCircle">{stock}</p>
+            </div>
             <footer className="ItemFooter">
             <Link to={`/item/${id}`}  className="Option">Ver detalles</Link>
             </footer>
